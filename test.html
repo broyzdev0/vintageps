@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VINTAGE Private Server</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-black text-white font-sans">
+
+ <!-- Navbar -->
+<nav class="bg-gray-900 p-4 fixed top-0 left-0 w-full z-50">
+  <div class="container mx-auto flex justify-between items-center">
+    <a href="#" class="text-xl font-bold text-yellow-500" style="font-family: 'Impact', sans-serif;">VINTAGE PS</a>
+    <ul class="hidden md:flex gap-6">
+      <li><a href="#features" class="hover:text-gray-400">About</a></li>
+      <li><a href="#platforms" class="hover:text-gray-400">Host</a></li>
+      <li><a href="#pricing" class="hover:text-gray-400">Shop</a></li>
+      <li><a href="#community" class="hover:text-gray-400">Community</a></li>
+    </ul>
+    <button class="md:hidden text-white">
+      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+      </svg>
+    </button>
+  </div>
+</nav>
+
+<!-- Banner -->
+<header class="relative" style="background-image: url('assets/hero.jpg'); background-size: cover; background-position: center center; height: 60vh;">
+  <!-- <div class="container mx-auto text-center py-40 ">
+    <h1 class="text-3xl font-bold text-white">Welcome to <span class="text-yellow-500">VINTAGE</span> Private Server</h1>
+    <p class="mt-2 text-white">Experience the ultimate private server for Growtopia!</p>
+  </div> -->
+</header>
+<style>
+  @media (max-width: 768px) {
+    header {
+      background-size: 150%; 
+      background-position: center center;
+      height: 50vh; 
+    }
+  }
+  @media (min-width: 769px) {
+    header {
+      background-size: cover; 
+      background-position: center center;
+      height: 60vh;
+    }
+  }
+</style>
+
+
+ <!-- About Section -->
+<section id="about" class="container mx-auto py-12 mt-6 px-10">
+  <div class="flex flex-col md:flex-row items-center justify-between">
+    <!-- Text Section (Left) -->
+    <div class="w-full md:w-1/2 pr-6">
+      <h1 class="text-4xl font-bold text-yellow-500 mb-4">VINTAGE PS</h1>
+      <h3 class="text-2xl text-gray-600 mb-6">Growtopia is an online multiplayer game where players can build, create, and interact with others in a vast, virtual world. We are dedicated to delivering the best Growtopia experience with a private server, where players can enjoy enhanced gameplay features and a vibrant community.</h3>
+    </div>
+    
+    <!-- Image Section (Right) -->
+    <div class="w-full md:w-1/2 mt-6 md:mt-0 pl-6 py-12 md:flex md:justify-end">
+      <img src="assets/about.jpg" alt="About Us" class="rounded-lg shadow-lg w-full md:w-3/4 h-auto">
+    </div>
+  </div>
+</section>
+
+
+
+  <!-- Cards untuk Platform -->
+<section id="platforms" class="mt-2 container mx-auto">
+  <!-- Bagian Platform Cards -->
+  <div class="bg-gray-800 shadow-lg rounded-lg p-6">
+    <section id="howtoplay" class="text-center p-6">
+      <h1 class="text-3xl font-bold text-white">How to Play</h1>
+    </section>
+    <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-6">
+      <!-- Card 1 -->
+      <div class="bg-gray-700 shadow-lg rounded-lg p-4 text-center">
+        <img src="assets/logo/ios.png" alt="iOS" class="mx-auto w-24 mb-4">
+        <h2 class="text-xl font-bold">iOS</h2>
+        <!-- <p class="text-gray-400">Seamless gameplay on your iPhone and iPad.</p> -->
+        <a href="#iosFeatures" class="mt-4 inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-lg">Play Game</a>
+      </div>
+      <!-- Card 2 -->
+      <div class="bg-gray-700 shadow-lg rounded-lg p-4 text-center">
+        <img src="/assets/logo/andro.png" alt="Android" class="mx-auto w-24 mb-4">
+        <h2 class="text-xl font-bold">Android</h2>
+        <!-- <p class="text-gray-400">Smooth experience on all Android devices.</p> -->
+        <a href="#androidFeatures" class="mt-4 inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-lg">Play Game</a>
+      </div>
+      <!-- Card 3 -->
+      <div class="bg-gray-700 shadow-lg rounded-lg p-4 text-center">
+        <img src="/assets/logo/window.png" alt="PC" class="mx-auto w-24 mb-4">
+        <h2 class="text-xl font-bold">PC</h2>
+        <!-- <p class="text-gray-400">Enjoy the game with powerful PC features.</p> -->
+        <a href="#pcFeatures" class="mt-4 inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-lg">Play Game</a>
+      </div>
+      <!-- Card 4 -->
+      <div class="bg-gray-700 shadow-lg rounded-lg p-4 text-center">
+        <img src="/assets/logo/tunel.png" alt="Console" class="mx-auto w-24 mb-4">
+        <h2 class="text-xl font-bold">Power tunel</h2>
+        <!-- <p class="text-gray-400">Enjoy an immersive experience on Powetunel.</p> -->
+        <a href="#consoleFeatures" class="mt-4 inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-lg">Play Game</a>
+      </div>
+      <!-- Card 5 -->
+      <div class="bg-gray-700 shadow-lg rounded-lg p-4 text-center">
+        <img src="/assets/logo/vhost.png" alt="VR" class="mx-auto w-24 mb-4">
+        <h2 class="text-xl font-bold">Virtual Host</h2>
+        <!-- <p class="text-gray-400">Step into the game with Virtual Reality.</p> -->
+        <a href="#vrFeatures" class="mt-4 inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-lg">Play Game</a>
+      </div>
+      <!-- Card 6 -->
+      <div class="bg-gray-700 shadow-lg rounded-lg p-4 text-center">
+        <img src="/assets/logo/bgl.png" alt="Mac" class="mx-auto w-24 mb-4">
+        <h2 class="text-xl font-bold">Shop</h2>
+        <!-- <p class="text-gray-400">Seamless gameplay on your MacBook and iMac.</p> -->
+        <a href="#shop" class="mt-4 inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-lg">View Shop</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Organizer Card Section -->
+  <section id="organizer" class="mt-12 container mx-auto">
+    <div class="bg-gray-800 shadow-lg rounded-lg p-5">
+      <h2 class="text-2xl font-bold text-center mb-4">Meet Our Organizer</h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
+        <div class="bg-gray-700 rounded-lg p-4 text-center">
+          <div class="flex justify-center">
+            <img src="assets/set/Broyz.png" alt="Organizer 1" class="rounded-lg shadow-lg w-full md:w-3/4 h-auto">
+          </div>
+          <h3 class="text-xl font-bold mt-4">OZP</h3>
+          <a href="#discord1" class="mt-4 inline-flex items-center bg-purple-500 hover:bg-purple-600 text-white font-bold py-2 px-4 rounded-lg">
+            <img src="assets/logo/dc.png" alt="Discord Icon" class="w-5 h-5 mr-2">
+            Discord
+          </a> 
+        </div>
+        <div class="bg-gray-700 rounded-lg p-4 text-center">
+          <div class="flex justify-center">
+            <img src="assets/set/Broyz.png" alt="Organizer 1" class="rounded-lg shadow-lg w-full md:w-3/4 h-auto">
+          </div>
+          <h3 class="text-xl font-bold mt-4">East</h3>
+          <a href="#discord2" class="mt-4 inline-flex items-center bg-purple-500 hover:bg-purple-600 text-white font-bold py-2 px-4 rounded-lg">
+            <img src="assets/logo/dc.png" alt="Discord Icon" class="w-5 h-5 mr-2">
+            Discord
+          </a> 
+        </div>
+        <div class="bg-gray-700 rounded-lg p-4 text-center">
+          <div class="flex justify-center">
+            <img src="assets/set/Broyz.png" alt="Organizer 1" class="rounded-lg shadow-lg w-full md:w-3/4 h-auto">
+          </div>
+          <h3 class="text-xl font-bold mt-4">Broyz</h3>
+          <a href="#discord3" class="mt-4 inline-flex items-center bg-purple-500 hover:bg-purple-600 text-white font-bold py-2 px-4 rounded-lg">
+            <img src="assets/logo/dc.png" alt="Discord Icon" class="w-5 h-5 mr-2">
+            Discord
+          </a> 
+        </div>
+        <div class="bg-gray-700 rounded-lg p-4 text-center">
+          <div class="flex justify-center">
+            <img src="assets/set/Broyz.png" alt="Organizer 1" class="rounded-lg shadow-lg w-full md:w-3/4 h-auto">
+          </div>
+          <h3 class="text-xl font-bold mt-4">Tron</h3>
+          <a href="#discord4" class="mt-4 inline-flex items-center bg-purple-500 hover:bg-purple-600 text-white font-bold py-2 px-4 rounded-lg">
+            <img src="assets/logo/dc.png" alt="Discord Icon" class="w-5 h-5 mr-2">
+            Discord
+          </a> 
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Join Us -->
+<section id="community" class="mt-12 container mx-auto">
+  <div class="bg-gray-800 shadow-lg rounded-lg p-6">
+    <h2 class="text-2xl font-bold text-center mb-4">Join Our Community</h2>
+    <div class="flex flex-col md:flex-row justify-center gap-6">
+      <!-- Tombol Join Discord -->
+      <a href="https://discord.gg/yourlink" target="_blank" class="bg-purple-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-lg flex items-center justify-center">
+        <img src="assets/logo/dc.png" alt="Discord Icon" class="w-5 h-5 mr-2">
+        Join Discord
+      </a>
+      <!-- Tombol Join WhatsApp -->
+      <a href="https://chat.whatsapp.com/yourlink" target="_blank" class="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded-lg flex items-center justify-center">
+        <img src="assets/logo/wa.png" alt="WhatsApp Icon" class="w-5 h-5 mr-2">
+        Join WhatsApp
+      </a>
+    </div>
+    <p class="text-center text-gray-400 mt-4">Stay connected with us for updates, events, and more!</p>
+  </div>
+</section>
+
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 py-6 mt-12">
+    <div class="container mx-auto text-center">
+      <p class="text-gray-500">&copy; 2024 <span class="text-yellow-500">VINTAGE</span> Private Server. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
