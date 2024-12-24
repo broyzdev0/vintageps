@@ -14,9 +14,8 @@
   <div class="container mx-auto flex justify-between items-center">
     <a href="#" class="text-xl font-bold text-yellow-500" style="font-family: 'Impact', sans-serif;">VINTAGE PS</a>
     <ul class="hidden md:flex gap-6">
-      <li><a href="#features" class="hover:text-gray-400">About</a></li>
-      <li><a href="#platforms" class="hover:text-gray-400">Host</a></li>
-      <li><a href="#pricing" class="hover:text-gray-400">Shop</a></li>
+      <li><a href="#about" class="hover:text-gray-400">About</a></li>
+      <li><a href="#host" class="hover:text-gray-400">Host</a></li>
       <li><a href="#community" class="hover:text-gray-400">Community</a></li>
     </ul>
     <button class="md:hidden text-white">
@@ -29,10 +28,6 @@
 
 <!-- Banner -->
 <header class="relative" style="background-image: url('assets/hero.jpg'); background-size: cover; background-position: center center; height: 60vh;">
-  <!-- <div class="container mx-auto text-center py-40 ">
-    <h1 class="text-3xl font-bold text-white">Welcome to <span class="text-yellow-500">VINTAGE</span> Private Server</h1>
-    <p class="mt-2 text-white">Experience the ultimate private server for Growtopia!</p>
-  </div> -->
 </header>
 <style>
   @media (max-width: 768px) {
@@ -52,15 +47,19 @@
 </style>
 
 
- <!-- About Section -->
+<!-- About Section -->
 <section id="about" class="container mx-auto py-12 mt-6 px-10">
   <div class="flex flex-col md:flex-row items-center justify-between">
     <!-- Text Section (Left) -->
     <div class="w-full md:w-1/2 pr-6">
       <h1 class="text-4xl font-bold text-yellow-500 mb-4">VINTAGE PS</h1>
-      <h3 class="text-2xl text-gray-600 mb-6">Growtopia is an online multiplayer game where players can build, create, and interact with others in a vast, virtual world. We are dedicated to delivering the best Growtopia experience with a private server, where players can enjoy enhanced gameplay features and a vibrant community.</h3>
+      <h3 class="text-2xl text-white-600 mb-6">Experience Growtopia like never before with VintagePS, a private server crafted to deliver the ultimate gameplay experience. Here, you can build, create, and explore a vibrant virtual world alongside a passionate and lively community.</h3>
+      <!-- Button Section -->
+      <div class="mt-8">
+        <a href="#host" class="bg-green-500 text-white font-semibold px-6 py-3 rounded-lg shadow-md hover:bg-yellow-600 transition duration-300">Play Game</a>
+      </div>
     </div>
-    
+
     <!-- Image Section (Right) -->
     <div class="w-full md:w-1/2 mt-6 md:mt-0 pl-6 py-12 md:flex md:justify-end">
       <img src="assets/about.jpg" alt="About Us" class="rounded-lg shadow-lg w-full md:w-3/4 h-auto">
@@ -70,9 +69,9 @@
 
 
 
-  <!-- Cards untuk Platform -->
-<section id="platforms" class="mt-2 container mx-auto">
-  <!-- Bagian Platform Cards -->
+  <!-- Cards untuk host -->
+<section id="host" class="mt-2 container mx-auto">
+  <!-- Bagian host Cards -->
   <div class="bg-gray-800 shadow-lg rounded-lg p-6">
     <section id="howtoplay" class="text-center p-6">
       <h1 class="text-3xl font-bold text-white">How to Play</h1>
@@ -83,41 +82,40 @@
         <img src="assets/logo/ios.png" alt="iOS" class="mx-auto w-24 mb-4">
         <h2 class="text-xl font-bold">iOS</h2>
         <!-- <p class="text-gray-400">Seamless gameplay on your iPhone and iPad.</p> -->
-        <a href="#iosFeatures" class="mt-4 inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-lg">Play Game</a>
+        <a href="/feature/ios.html" class="mt-4 inline-block bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded-lg">Play Game</a>
       </div>
       <!-- Card 2 -->
       <div class="bg-gray-700 shadow-lg rounded-lg p-4 text-center">
         <img src="/assets/logo/andro.png" alt="Android" class="mx-auto w-24 mb-4">
         <h2 class="text-xl font-bold">Android</h2>
         <!-- <p class="text-gray-400">Smooth experience on all Android devices.</p> -->
-        <a href="#androidFeatures" class="mt-4 inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-lg">Play Game</a>
+        <a href="/feature/android.html" class="mt-4 inline-block bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded-lg">Play Game</a>
       </div>
       <!-- Card 3 -->
       <div class="bg-gray-700 shadow-lg rounded-lg p-4 text-center">
         <img src="/assets/logo/window.png" alt="PC" class="mx-auto w-24 mb-4">
         <h2 class="text-xl font-bold">PC</h2>
         <!-- <p class="text-gray-400">Enjoy the game with powerful PC features.</p> -->
-        <a href="#pcFeatures" class="mt-4 inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-lg">Play Game</a>
+        <a href="/feature/pc.html" class="mt-4 inline-block bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded-lg">Play Game</a>
       </div>
       <!-- Card 4 -->
       <div class="bg-gray-700 shadow-lg rounded-lg p-4 text-center">
         <img src="/assets/logo/tunel.png" alt="Console" class="mx-auto w-24 mb-4">
         <h2 class="text-xl font-bold">Power tunel</h2>
         <!-- <p class="text-gray-400">Enjoy an immersive experience on Powetunel.</p> -->
-        <a href="#consoleFeatures" class="mt-4 inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-lg">Play Game</a>
+        <a href="/feature/ptunel.html" class="mt-4 inline-block bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded-lg">Play Game</a>
       </div>
       <!-- Card 5 -->
       <div class="bg-gray-700 shadow-lg rounded-lg p-4 text-center">
         <img src="/assets/logo/vhost.png" alt="VR" class="mx-auto w-24 mb-4">
         <h2 class="text-xl font-bold">Virtual Host</h2>
         <!-- <p class="text-gray-400">Step into the game with Virtual Reality.</p> -->
-        <a href="#vrFeatures" class="mt-4 inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-lg">Play Game</a>
+        <a href="/feature/vih.html" class="mt-4 inline-block bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded-lg">Play Game</a>
       </div>
       <!-- Card 6 -->
       <div class="bg-gray-700 shadow-lg rounded-lg p-4 text-center">
         <img src="/assets/logo/bgl.png" alt="Mac" class="mx-auto w-24 mb-4">
         <h2 class="text-xl font-bold">Shop</h2>
-        <!-- <p class="text-gray-400">Seamless gameplay on your MacBook and iMac.</p> -->
         <a href="#shop" class="mt-4 inline-block bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-lg">View Shop</a>
       </div>
     </div>
@@ -180,7 +178,7 @@
     <h2 class="text-2xl font-bold text-center mb-4">Join Our Community</h2>
     <div class="flex flex-col md:flex-row justify-center gap-6">
       <!-- Tombol Join Discord -->
-      <a href="https://discord.gg/yourlink" target="_blank" class="bg-purple-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded-lg flex items-center justify-center">
+      <a href="https://discord.gg/yourlink" target="_blank" class="bg-purple-500 hover:bg-purple-600 text-white font-bold py-2 px-4 rounded-lg flex items-center justify-center">
         <img src="assets/logo/dc.png" alt="Discord Icon" class="w-5 h-5 mr-2">
         Join Discord
       </a>
